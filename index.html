@@ -1,148 +1,151 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adithya K Uday - Digital CV</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f5f6f7;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            width: 85%;
-            max-width: 900px;
-            background: #fff;
-            margin: 30px auto;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 0 15px rgba(0,0,0,0.1);
-        }
-        .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .header img {
-            width: 130px;
-            height: 150px;
-            object-fit: cover;
-            border-radius: 6px;
-        }
-        h1 {
-            margin: 0;
-            font-size: 28px;
-        }
-        h2 {
-            margin-top: 30px;
-            border-bottom: 2px solid #ddd;
-            padding-bottom: 5px;
-        }
-        ul { line-height: 1.6; }
-        .section { margin-bottom: 25px; }
-    </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Adithya K Uday — CV</title>
+  <style>
+    html,body{margin:0;padding:0;font-family:Arial,Helvetica,sans-serif;color:#111;background:#fff}
+    .container{max-width:800px;margin:18px auto;padding:22px}
+    header{display:flex;align-items:center;gap:18px}
+    header img.photo{width:96px;height:110px;object-fit:cover;border-radius:6px}
+    header .head-info{flex:1}
+    h1{font-size:20px;margin:0 0 4px 0}
+    p.title{margin:0;color:#333;font-weight:600}
+    .contact{font-size:13px;margin-top:6px}
+    .contact a{color:inherit;text-decoration:none}
+    h2{font-size:14px;margin:18px 0 8px 0;border-bottom:1px solid #e6e6e6;padding-bottom:6px}
+    ul{margin:6px 0 0 18px;padding:0;line-height:1.45}
+    li{margin-bottom:6px}
+    .skills-grid{display:block}
+    .skill-category{margin-bottom:8px}
+    .qr{margin-left:10px;text-align:center}
+    .qr img{width:100px;height:100px;object-fit:contain}
+    a.proj-link{color:#004f9e;text-decoration:none;}
+    a.proj-link:hover{text-decoration:underline;}
+  </style>
 </head>
-
 <body>
-<div class="container">
+  <div class="container">
 
-    <div class="header">
-    <div>
+    <header>
+      <img class="photo" src="profile.jpeg" alt="Adithya K Uday - Profile Photo" />
+
+      <div class="head-info">
         <h1>Adithya K Uday</h1>
-        <p>Alappuzha, Kerala</p>
-        <p><b>Phone:</b> +91 62381 60648</p>
-        <p><b>Email:</b> pe5287423@gmail.com</p>
-    </div>
-
-    <div style="text-align:center;">
-        <img src="profile.jpeg" alt="Profile Photo" style="width:130px;height:150px;margin-bottom:10px;">
-        <img src="qr.png" alt="QR Code" style="width:120px;">
-        <p style="font-size:12px;">Scan Me</p>
-    </div>
-</div>
-
-
-    <div class="section">
-        <h2>Career Objective</h2>
-        <p>
-            Passionate fresher in Computer Science with strong fundamentals in programming, web technologies, 
-            and software deployment. Eager to begin my career as a Software Engineer where I can learn quickly, 
-            contribute to development tasks, and grow into a valuable member of the team.
+        <p class="title">Front-End Developer | Full-Stack Intern</p>
+        <p class="contact">
+          Alappuzha, Kerala • <a href="tel:+916238160648">+91 62381 60648</a> •
+          <a href="mailto:pe5287423@gmail.com">pe5287423@gmail.com</a><br>
+          <a href="https://linkedin.com/in/adhy2001" target="_blank">linkedin.com/in/adhy2001</a> •
+          <a href="https://github.com/adhy2001" target="_blank">github.com/adhy2001</a>
         </p>
-    </div>
+      </div>
 
-    <div class="section">
-        <h2>Technical Skills</h2>
-        <ul>
-            <li><b>Languages:</b> Python, JavaScript, C, HTML, CSS</li>
-            <li><b>Frameworks & Databases:</b> React.js, Node.js, Flask, Bootstrap, PHP, MongoDB, MySQL</li>
-            <li><b>Tools:</b> Git, GitHub, VS Code, PyCharm, Vercel, Netlify, Render</li>
-            <li><b>Core Skills:</b> API Integration, Debugging, Responsive Web Design, Deployment, Problem Solving</li>
-        </ul>
-    </div>
+      <div class="qr" aria-hidden="true">
+        <img src="qr.png" alt="QR Code" />
+        <div style="font-size:11px;margin-top:4px">Scan for live CV</div>
+      </div>
+    </header>
 
-    <div class="section">
-        <h2>Projects</h2>
-        <ul>
-            <li><b>Weather App – HTML, CSS, JavaScript</b><br>
-                • Built a responsive weather application using OpenWeather API.<br>
-                • Implemented real-time weather updates with dynamic UI rendering.</li>
-            <br>
-            <li><b>Fake News Detection System – React.js, Flask, Python, BERT</b><br>
-                • Developed a full-stack application with over 90% accuracy.<br>
-                • Built chatbot-style frontend and deployed on Vercel & Render.</li>
-            <br>
-            <li><b>Portfolio Website – HTML, CSS, JavaScript</b><br>
-                • Built a personal portfolio with projects and contact form.<br>
-                • Ensured full mobile responsiveness.</li>
-        </ul>
-    </div>
+    <section>
+      <h2>Professional Summary</h2>
+      <p>
+        Front-end focused developer with hands-on experience building responsive interfaces, integrating APIs,
+        and deploying full-stack demos. Skilled in React, component-driven UI, Tailwind, Figma, and UI/UX principles.
+        Strong understanding of accessibility, performance, and mobile-first design.
+      </p>
+    </section>
 
-    <div class="section">
-        <h2>Internships</h2>
-        <ul>
-            <li><b>Python & Machine Learning Intern – Revertech (Jul–Aug 2024)</b><br>
-                • Worked on ML mini-projects and model optimization.<br>
-                • Learned collaborative workflows and version control.</li>
-            <br>
-            <li><b>Cybersecurity Intern – Techbyheart (Jan–Feb 2023)</b><br>
-                • Assisted in vulnerability assessment and ethical hacking simulations.<br>
-                • Gained foundational secure coding understanding.</li>
-        </ul>
-    </div>
+    <section>
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <strong>Front-End:</strong> HTML5, CSS3, JavaScript (ES6+), React.js, Tailwind CSS, Bootstrap
+        </div>
+        <div class="skill-category">
+          <strong>UI / UX:</strong> Figma, Wireframing, Prototyping, Accessibility (WCAG), Responsive Design
+        </div>
+        <div class="skill-category">
+          <strong>Tools:</strong> Git, GitHub, VS Code, Vercel, Netlify, Render, Chrome DevTools
+        </div>
+        <div class="skill-category">
+          <strong>Back-End:</strong> Node.js, Flask, Python, MySQL, MongoDB, REST APIs
+        </div>
+      </div>
+    </section>
 
-    <div class="section">
-        <h2>Education</h2>
-        <ul>
-            <li><b>Bachelor of Engineering (CSE)</b>, Anna University – 2025</li>
-            <li><b>HSE (Bioscience)</b>, GHSS Kunnam – 2019</li>
-            <li><b>SSLC</b>, St. Johns HSS – 2017</li>
-        </ul>
-    </div>
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <strong>Fake News Detection System</strong> — React.js + Flask + BERT<br>
+          • Achieved 90%+ text classification accuracy.<br>
+          • Built chatbot-style UI; deployed on Vercel & Render.
+        </li>
 
-    <div class="section">
-        <h2>Certifications</h2>
-        <ul>
-            <li>Web Development with AI – Internshala (NSDC Certified, 2025)</li>
-            <li>Meta: Front-End Development – Coursera (2025)</li>
-            <li>IBM: Software Engineering – Coursera (2025)</li>
-        </ul>
-    </div>
+        <li>
+          <strong>Weather App</strong> — HTML / CSS / JS  
+          (<a class="proj-link" href="https://adhy2001.github.io/weather-app/" target="_blank">Live Demo</a>)<br>
+          • Consumed OpenWeather API with dynamic UI updates.<br>
+          • Fully responsive & mobile-friendly.
+        </li>
 
-    <div class="section">
-        <h2>Languages</h2>
-        <ul>
-            <li>English</li>
-            <li>Malayalam</li>
-            <li>Tamil</li>
-        </ul>
-    </div>
+        <li>
+          <strong>Portfolio Website</strong> — HTML / CSS / JS  
+          (<a class="proj-link" href="https://adhy2001.github.io/portfolio/" target="_blank">View Portfolio</a>)<br>
+          • Designed & developed a clean personal portfolio with animations.<br>
+          • Optimized for faster loading & usability.
+        </li>
+      </ul>
+    </section>
 
-</div>
+    <section>
+      <h2>Experience & Internships</h2>
+      <ul>
+        <li>
+          <strong>Python & Machine Learning Intern — Revertech</strong> (Jul–Aug 2024)<br>
+          • Developed ML mini-projects and supported backend workflows.
+        </li>
+        <li>
+          <strong>Cybersecurity Intern — Techbyheart</strong> (Jan–Feb 2023)<br>
+          • Assisted in vulnerability assessments and security testing.
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <ul>
+        <li>B.E. Computer Science & Engineering — Anna University, 2021–2025</li>
+        <li>HSE (Bioscience) — GHSS Kunnam, 2019</li>
+        <li>SSLC — St. Johns HSS, 2017</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Certifications & Achievements</h2>
+      <ul>
+        <li>Web Development with AI — Internshala (NSDC Certified, 2025)</li>
+        <li>Meta Front-End Development — Coursera (2025)</li>
+        <li>IBM Software Engineering — Coursera (2025)</li>
+        <li>Built 10+ responsive UI components and deployed multiple projects</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Languages</h2>
+      <ul>
+        <li>English</li>
+        <li>Malayalam</li>
+        <li>Tamil</li>
+      </ul>
+    </section>
+
+  </div>
 </body>
 </html>
+
 
 
 
